@@ -1807,7 +1807,7 @@
 			<when state="E+do_" output="Ė"/>
 			<when state="F+do_" output="Ḟ"/>
 			<when state="G+do_" output="Ġ"/>
-			<when state="H+do_" output="Ḧ"/>
+			<when state="H+do_" output="Ḣ"/>
 			<when state="M+do_" output="Ṁ"/>
 			<when state="N+do_" output="Ṅ"/>
 			<when state="O+do_" output="Ȯ"/>
@@ -1815,8 +1815,8 @@
 			<when state="R+do_" output="Ṙ"/>
 			<when state="S+do_" output="Ṡ"/>
 			<when state="T+do_" output="Ṫ"/>
-			<when state="W+do_" output="Ẅ"/>
-			<when state="X+do_" output="Ẍ"/>
+			<when state="W+do_" output="Ẇ"/>
+			<when state="X+do_" output="Ẋ"/>
 			<when state="Y+do_" output="Ẏ"/>
 			<when state="Z+do_" output="Ż"/>
 			<when state="A+_" next="A+t_"/>
@@ -2280,7 +2280,7 @@
 		<when state="H+diaere_" output="Ḧ"/>
 		<when state="H+diaeres_" output="Ḧ"/>
 		<when state="H+diaeresi_" output="Ḧ"/>
-		<when state="H+do_" output="Ḧ"/>
+		<when state="H+do_" output="Ḣ"/>
 		<when state="H+h_" output="Ȟ"/>
 		<when state="H+ha_" output="Ȟ"/>
 		<when state="H+hac_" output="Ȟ"/>
@@ -2638,7 +2638,7 @@
 		<when state="W+diaere_" output="Ẅ"/>
 		<when state="W+diaeres_" output="Ẅ"/>
 		<when state="W+diaeresi_" output="Ẅ"/>
-		<when state="W+do_" output="Ẅ"/>
+		<when state="W+do_" output="Ẇ"/>
 		<when state="W+g_" output="Ẁ"/>
 		<when state="W+gr_" output="Ẁ"/>
 		<when state="W+gra_" output="Ẁ"/>
@@ -2657,7 +2657,7 @@
 		<when state="X+diaere_" output="Ẍ"/>
 		<when state="X+diaeres_" output="Ẍ"/>
 		<when state="X+diaeresi_" output="Ẍ"/>
-		<when state="X+do_" output="Ẍ"/>
+		<when state="X+do_" output="Ẋ"/>
 		<when state="X+u_" output="Ẍ"/>
 		<when state="X+um_" output="Ẍ"/>
 		<when state="X+uml_" output="Ẍ"/>
