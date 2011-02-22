@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!-- Conceptualized and handcrafted by Grzegorz Rolek -->
+<!-- Conceptualized and handtyped by Grzegorz Rolek. Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, available at http://creativecommons.org/licenses/by-nc-sa/3.0/. -->
 <keyboard group="126" id="-17282" name="Interdiacritical" maxout="1">
 	<layouts>
 		<layout first="0" last="17" modifiers="simpleModifiers" mapSet="ANSI"/>
