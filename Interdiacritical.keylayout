@@ -913,6 +913,23 @@
 			<when state="I+ogon_" next="I+ogone_"/>
 			<when state="O+ogon_" next="O+ogone_"/>
 			<when state="U+ogon_" next="U+ogone_"/>
+			<when state="A+strok_" output="Ⱥ"/>
+			<when state="B+strok_" output="Ƀ"/>
+			<when state="C+strok_" output="Ȼ"/>
+			<when state="D+strok_" output="Đ"/>
+			<when state="E+strok_" output="Ɇ"/>
+			<when state="G+strok_" output="Ǥ"/>
+			<when state="H+strok_" output="Ħ"/>
+			<when state="I+strok_" output="Ɨ"/>
+			<when state="J+strok_" output="Ɉ"/>
+			<when state="K+strok_" output="Ꝁ"/>
+			<when state="L+strok_" output="Ł"/>
+			<when state="O+strok_" output="Ø"/>
+			<when state="P+strok_" output="Ᵽ"/>
+			<when state="R+strok_" output="Ɍ"/>
+			<when state="T+strok_" output="Ŧ"/>
+			<when state="Y+strok_" output="Ɏ"/>
+			<when state="Z+strok_" output="Ƶ"/>
 			<when state="A+tild_" output="Ã"/>
 			<when state="N+tild_" output="Ñ"/>
 			<when state="O+tild_" output="Õ"/>
@@ -1020,6 +1037,23 @@
 			<when state="i+ogon_" next="i+ogone_"/>
 			<when state="o+ogon_" next="o+ogone_"/>
 			<when state="u+ogon_" next="u+ogone_"/>
+			<when state="a+strok_" output="ⱥ"/>
+			<when state="b+strok_" output="ƀ"/>
+			<when state="c+strok_" output="ȼ"/>
+			<when state="d+strok_" output="đ"/>
+			<when state="e+strok_" output="ɇ"/>
+			<when state="g+strok_" output="ǥ"/>
+			<when state="h+strok_" output="ħ"/>
+			<when state="i+strok_" output="ɨ"/>
+			<when state="j+strok_" output="ɉ"/>
+			<when state="k+strok_" output="ꝁ"/>
+			<when state="l+strok_" output="ł"/>
+			<when state="o+strok_" output="ø"/>
+			<when state="p+strok_" output="ᵽ"/>
+			<when state="r+strok_" output="ɍ"/>
+			<when state="t+strok_" output="ŧ"/>
+			<when state="y+strok_" output="ɏ"/>
+			<when state="z+strok_" output="ƶ"/>
 			<when state="a+tild_" output="ã"/>
 			<when state="n+tild_" output="ñ"/>
 			<when state="o+tild_" output="õ"/>
@@ -1258,6 +1292,23 @@
 			<when state="I+ogone_" output="Į"/>
 			<when state="O+ogone_" output="Ǫ"/>
 			<when state="U+ogone_" output="Ų"/>
+			<when state="A+stro_" next="A+strok_"/>
+			<when state="B+stro_" next="B+strok_"/>
+			<when state="C+stro_" next="C+strok_"/>
+			<when state="D+stro_" next="D+strok_"/>
+			<when state="E+stro_" next="E+strok_"/>
+			<when state="G+stro_" next="G+strok_"/>
+			<when state="H+stro_" next="H+strok_"/>
+			<when state="I+stro_" next="I+strok_"/>
+			<when state="J+stro_" next="J+strok_"/>
+			<when state="K+stro_" next="K+strok_"/>
+			<when state="L+stro_" next="L+strok_"/>
+			<when state="O+stro_" next="O+strok_"/>
+			<when state="P+stro_" next="P+strok_"/>
+			<when state="R+stro_" next="R+strok_"/>
+			<when state="T+stro_" next="T+strok_"/>
+			<when state="Y+stro_" next="Y+strok_"/>
+			<when state="Z+stro_" next="Z+strok_"/>
 			<when state="a+hace_" output="ǎ"/>
 			<when state="c+hace_" output="č"/>
 			<when state="d+hace_" output="ď"/>
@@ -1280,6 +1331,23 @@
 			<when state="i+ogone_" output="į"/>
 			<when state="o+ogone_" output="ǫ"/>
 			<when state="u+ogone_" output="ų"/>
+			<when state="a+stro_" next="a+strok_"/>
+			<when state="b+stro_" next="b+strok_"/>
+			<when state="c+stro_" next="c+strok_"/>
+			<when state="d+stro_" next="d+strok_"/>
+			<when state="e+stro_" next="e+strok_"/>
+			<when state="g+stro_" next="g+strok_"/>
+			<when state="h+stro_" next="h+strok_"/>
+			<when state="i+stro_" next="i+strok_"/>
+			<when state="j+stro_" next="j+strok_"/>
+			<when state="k+stro_" next="k+strok_"/>
+			<when state="l+stro_" next="l+strok_"/>
+			<when state="o+stro_" next="o+strok_"/>
+			<when state="p+stro_" next="p+strok_"/>
+			<when state="r+stro_" next="r+strok_"/>
+			<when state="t+stro_" next="t+strok_"/>
+			<when state="y+stro_" next="y+strok_"/>
+			<when state="z+stro_" next="z+strok_"/>
 		</action>
 		<action id="l">
 			<when state="none" output="l"/>
@@ -1559,6 +1627,23 @@
 			<when state="I+og_" next="I+ogo_"/>
 			<when state="O+og_" next="O+ogo_"/>
 			<when state="U+og_" next="U+ogo_"/>
+			<when state="A+str_" next="A+stro_"/>
+			<when state="B+str_" next="B+stro_"/>
+			<when state="C+str_" next="C+stro_"/>
+			<when state="D+str_" next="D+stro_"/>
+			<when state="E+str_" next="E+stro_"/>
+			<when state="G+str_" next="G+stro_"/>
+			<when state="H+str_" next="H+stro_"/>
+			<when state="I+str_" next="I+stro_"/>
+			<when state="J+str_" next="J+stro_"/>
+			<when state="K+str_" next="K+stro_"/>
+			<when state="L+str_" next="L+stro_"/>
+			<when state="O+str_" next="O+stro_"/>
+			<when state="P+str_" next="P+stro_"/>
+			<when state="R+str_" next="R+stro_"/>
+			<when state="T+str_" next="T+stro_"/>
+			<when state="Y+str_" next="Y+stro_"/>
+			<when state="Z+str_" next="Z+stro_"/>
 			<when state="a+car_" next="a+caro_"/>
 			<when state="c+car_" next="c+caro_"/>
 			<when state="d+car_" next="d+caro_"/>
@@ -1610,6 +1695,23 @@
 			<when state="i+og_" next="i+ogo_"/>
 			<when state="o+og_" next="o+ogo_"/>
 			<when state="u+og_" next="u+ogo_"/>
+			<when state="a+str_" next="a+stro_"/>
+			<when state="b+str_" next="b+stro_"/>
+			<when state="c+str_" next="c+stro_"/>
+			<when state="d+str_" next="d+stro_"/>
+			<when state="e+str_" next="e+stro_"/>
+			<when state="g+str_" next="g+stro_"/>
+			<when state="h+str_" next="h+stro_"/>
+			<when state="i+str_" next="i+stro_"/>
+			<when state="j+str_" next="j+stro_"/>
+			<when state="k+str_" next="k+stro_"/>
+			<when state="l+str_" next="l+stro_"/>
+			<when state="o+str_" next="o+stro_"/>
+			<when state="p+str_" next="p+stro_"/>
+			<when state="r+str_" next="r+stro_"/>
+			<when state="t+str_" next="t+stro_"/>
+			<when state="y+str_" next="y+stro_"/>
+			<when state="z+str_" next="z+stro_"/>
 		</action>
 		<action id="p">
 			<when state="none" output="p"/>
@@ -1679,6 +1781,23 @@
 			<when state="Y+mac_" next="Y+macr_"/>
 			<when state="A+_" next="A+r_"/>
 			<when state="U+_" next="U+r_"/>
+			<when state="A+st_" next="A+str_"/>
+			<when state="B+st_" next="B+str_"/>
+			<when state="C+st_" next="C+str_"/>
+			<when state="D+st_" next="D+str_"/>
+			<when state="E+st_" next="E+str_"/>
+			<when state="G+st_" next="G+str_"/>
+			<when state="H+st_" next="H+str_"/>
+			<when state="I+st_" next="I+str_"/>
+			<when state="J+st_" next="J+str_"/>
+			<when state="K+st_" next="K+str_"/>
+			<when state="L+st_" next="L+str_"/>
+			<when state="O+st_" next="O+str_"/>
+			<when state="P+st_" next="P+str_"/>
+			<when state="R+st_" next="R+str_"/>
+			<when state="T+st_" next="T+str_"/>
+			<when state="Y+st_" next="Y+str_"/>
+			<when state="Z+st_" next="Z+str_"/>
 			<when state="a+b_" next="a+br_"/>
 			<when state="e+b_" next="e+br_"/>
 			<when state="g+b_" next="g+br_"/>
@@ -1742,6 +1861,23 @@
 			<when state="u+_" next="u+r_"/>
 			<when state="w+_" next="w+r_"/>
 			<when state="y+_" next="y+r_"/>
+			<when state="a+st_" next="a+str_"/>
+			<when state="b+st_" next="b+str_"/>
+			<when state="c+st_" next="c+str_"/>
+			<when state="d+st_" next="d+str_"/>
+			<when state="e+st_" next="e+str_"/>
+			<when state="g+st_" next="g+str_"/>
+			<when state="h+st_" next="h+str_"/>
+			<when state="i+st_" next="i+str_"/>
+			<when state="j+st_" next="j+str_"/>
+			<when state="k+st_" next="k+str_"/>
+			<when state="l+st_" next="l+str_"/>
+			<when state="o+st_" next="o+str_"/>
+			<when state="p+st_" next="p+str_"/>
+			<when state="r+st_" next="r+str_"/>
+			<when state="t+st_" next="t+str_"/>
+			<when state="y+st_" next="y+str_"/>
+			<when state="z+st_" next="z+str_"/>
 		</action>
 		<action id="s">
 			<when state="none" output="s"/>
@@ -1763,6 +1899,23 @@
 			<when state="W+diaeresi_" output="Ẅ"/>
 			<when state="X+diaeresi_" output="Ẍ"/>
 			<when state="Y+diaeresi_" output="Ÿ"/>
+			<when state="A+_" next="A+s_"/>
+			<when state="B+_" next="B+s_"/>
+			<when state="C+_" next="C+s_"/>
+			<when state="D+_" next="D+s_"/>
+			<when state="E+_" next="E+s_"/>
+			<when state="G+_" next="G+s_"/>
+			<when state="H+_" next="H+s_"/>
+			<when state="I+_" next="I+s_"/>
+			<when state="J+_" next="J+s_"/>
+			<when state="K+_" next="K+s_"/>
+			<when state="L+_" next="L+s_"/>
+			<when state="O+_" next="O+s_"/>
+			<when state="P+_" next="P+s_"/>
+			<when state="R+_" next="R+s_"/>
+			<when state="T+_" next="T+s_"/>
+			<when state="Y+_" next="Y+s_"/>
+			<when state="Z+_" next="Z+s_"/>
 			<when state="a+diaere_" next="a+diaeres_"/>
 			<when state="e+diaere_" next="e+diaeres_"/>
 			<when state="h+diaere_" next="h+diaeres_"/>
@@ -1781,6 +1934,23 @@
 			<when state="w+diaeresi_" output="ẅ"/>
 			<when state="x+diaeresi_" output="ẍ"/>
 			<when state="y+diaeresi_" output="ÿ"/>
+			<when state="a+_" next="a+s_"/>
+			<when state="b+_" next="b+s_"/>
+			<when state="c+_" next="c+s_"/>
+			<when state="d+_" next="d+s_"/>
+			<when state="e+_" next="e+s_"/>
+			<when state="g+_" next="g+s_"/>
+			<when state="h+_" next="h+s_"/>
+			<when state="i+_" next="i+s_"/>
+			<when state="j+_" next="j+s_"/>
+			<when state="k+_" next="k+s_"/>
+			<when state="l+_" next="l+s_"/>
+			<when state="o+_" next="o+s_"/>
+			<when state="p+_" next="p+s_"/>
+			<when state="r+_" next="r+s_"/>
+			<when state="t+_" next="t+s_"/>
+			<when state="y+_" next="y+s_"/>
+			<when state="z+_" next="z+s_"/>
 		</action>
 		<action id="t">
 			<when state="none" output="t"/>
@@ -1819,6 +1989,23 @@
 			<when state="X+do_" output="Ẋ"/>
 			<when state="Y+do_" output="Ẏ"/>
 			<when state="Z+do_" output="Ż"/>
+			<when state="A+s_" next="A+st_"/>
+			<when state="B+s_" next="B+st_"/>
+			<when state="C+s_" next="C+st_"/>
+			<when state="D+s_" next="D+st_"/>
+			<when state="E+s_" next="E+st_"/>
+			<when state="G+s_" next="G+st_"/>
+			<when state="H+s_" next="H+st_"/>
+			<when state="I+s_" next="I+st_"/>
+			<when state="J+s_" next="J+st_"/>
+			<when state="K+s_" next="K+st_"/>
+			<when state="L+s_" next="L+st_"/>
+			<when state="O+s_" next="O+st_"/>
+			<when state="P+s_" next="P+st_"/>
+			<when state="R+s_" next="R+st_"/>
+			<when state="T+s_" next="T+st_"/>
+			<when state="Y+s_" next="Y+st_"/>
+			<when state="Z+s_" next="Z+st_"/>
 			<when state="A+_" next="A+t_"/>
 			<when state="N+_" next="N+t_"/>
 			<when state="O+_" next="O+t_"/>
@@ -1869,6 +2056,23 @@
 			<when state="x+do_" output="ẋ"/>
 			<when state="y+do_" output="ẏ"/>
 			<when state="z+do_" output="ż"/>
+			<when state="a+s_" next="a+st_"/>
+			<when state="b+s_" next="b+st_"/>
+			<when state="c+s_" next="c+st_"/>
+			<when state="d+s_" next="d+st_"/>
+			<when state="e+s_" next="e+st_"/>
+			<when state="g+s_" next="g+st_"/>
+			<when state="h+s_" next="h+st_"/>
+			<when state="i+s_" next="i+st_"/>
+			<when state="j+s_" next="j+st_"/>
+			<when state="k+s_" next="k+st_"/>
+			<when state="l+s_" next="l+st_"/>
+			<when state="o+s_" next="o+st_"/>
+			<when state="p+s_" next="p+st_"/>
+			<when state="r+s_" next="r+st_"/>
+			<when state="t+s_" next="t+st_"/>
+			<when state="y+s_" next="y+st_"/>
+			<when state="z+s_" next="z+st_"/>
 			<when state="a+_" next="a+t_"/>
 			<when state="n+_" next="n+t_"/>
 			<when state="o+_" next="o+t_"/>
@@ -2105,6 +2309,11 @@
 		<when state="A+r_" output="Å"/>
 		<when state="A+ri_" output="Å"/>
 		<when state="A+rin_" output="Å"/>
+		<when state="A+s_" output="Ⱥ"/>
+		<when state="A+st_" output="Ⱥ"/>
+		<when state="A+str_" output="Ⱥ"/>
+		<when state="A+stro_" output="Ⱥ"/>
+		<when state="A+strok_" output="Ⱥ"/>
 		<when state="A+t_" output="Ã"/>
 		<when state="A+ti_" output="Ã"/>
 		<when state="A+til_" output="Ã"/>
@@ -2117,6 +2326,11 @@
 		<when state="B+_" output="B"/>
 		<when state="B+d_" output="Ḃ"/>
 		<when state="B+do_" output="Ḃ"/>
+		<when state="B+s_" output="Ƀ"/>
+		<when state="B+st_" output="Ƀ"/>
+		<when state="B+str_" output="Ƀ"/>
+		<when state="B+stro_" output="Ƀ"/>
+		<when state="B+strok_" output="Ƀ"/>
 		<when state="C+_" output="C"/>
 		<when state="C+a_" output="Ć"/>
 		<when state="C+ac_" output="Ć"/>
@@ -2145,6 +2359,11 @@
 		<when state="C+ha_" output="Č"/>
 		<when state="C+hac_" output="Č"/>
 		<when state="C+hace_" output="Č"/>
+		<when state="C+s_" output="Ȼ"/>
+		<when state="C+st_" output="Ȼ"/>
+		<when state="C+str_" output="Ȼ"/>
+		<when state="C+stro_" output="Ȼ"/>
+		<when state="C+strok_" output="Ȼ"/>
 		<when state="D+_" output="D"/>
 		<when state="D+c_" output="Ď"/>
 		<when state="D+ca_" output="Ď"/>
@@ -2161,6 +2380,11 @@
 		<when state="D+ha_" output="Ď"/>
 		<when state="D+hac_" output="Ď"/>
 		<when state="D+hace_" output="Ď"/>
+		<when state="D+s_" output="Đ"/>
+		<when state="D+st_" output="Đ"/>
+		<when state="D+str_" output="Đ"/>
+		<when state="D+stro_" output="Đ"/>
+		<when state="D+strok_" output="Đ"/>
 		<when state="E+_" output="E"/>
 		<when state="E+a_" output="É"/>
 		<when state="E+ac_" output="É"/>
@@ -2214,6 +2438,11 @@
 		<when state="E+ogo_" output="Ę"/>
 		<when state="E+ogon_" output="Ę"/>
 		<when state="E+ogone_" output="Ę"/>
+		<when state="E+s_" output="Ɇ"/>
+		<when state="E+st_" output="Ɇ"/>
+		<when state="E+str_" output="Ɇ"/>
+		<when state="E+stro_" output="Ɇ"/>
+		<when state="E+strok_" output="Ɇ"/>		
 		<when state="E+u_" output="Ë"/>
 		<when state="E+um_" output="Ë"/>
 		<when state="E+uml_" output="Ë"/>
@@ -2254,6 +2483,11 @@
 		<when state="G+ha_" output="Ǧ"/>
 		<when state="G+hac_" output="Ǧ"/>
 		<when state="G+hace_" output="Ǧ"/>
+		<when state="G+s_" output="Ǥ"/>
+		<when state="G+st_" output="Ǥ"/>
+		<when state="G+str_" output="Ǥ"/>
+		<when state="G+stro_" output="Ǥ"/>
+		<when state="G+strok_" output="Ǥ"/>
 		<when state="H+_" output="H"/>
 		<when state="H+c_" output="Ȟ"/>
 		<when state="H+ca_" output="Ȟ"/>
@@ -2285,6 +2519,11 @@
 		<when state="H+ha_" output="Ȟ"/>
 		<when state="H+hac_" output="Ȟ"/>
 		<when state="H+hace_" output="Ȟ"/>
+		<when state="H+s_" output="Ħ"/>
+		<when state="H+st_" output="Ħ"/>
+		<when state="H+str_" output="Ħ"/>
+		<when state="H+stro_" output="Ħ"/>
+		<when state="H+strok_" output="Ħ"/>
 		<when state="H+u_" output="Ḧ"/>
 		<when state="H+um_" output="Ḧ"/>
 		<when state="H+uml_" output="Ḧ"/>
@@ -2337,6 +2576,11 @@
 		<when state="I+ogo_" output="Į"/>
 		<when state="I+ogon_" output="Į"/>
 		<when state="I+ogone_" output="Į"/>
+		<when state="I+s_" output="Ɨ"/>
+		<when state="I+st_" output="Ɨ"/>
+		<when state="I+str_" output="Ɨ"/>
+		<when state="I+stro_" output="Ɨ"/>
+		<when state="I+strok_" output="Ɨ"/>
 		<when state="I+u_" output="Ï"/>
 		<when state="I+um_" output="Ï"/>
 		<when state="I+uml_" output="Ï"/>
@@ -2352,6 +2596,11 @@
 		<when state="J+circumf_" output="Ĵ"/>
 		<when state="J+circumfl_" output="Ĵ"/>
 		<when state="J+circumfle_" output="Ĵ"/>
+		<when state="J+s_" output="Ɉ"/>
+		<when state="J+st_" output="Ɉ"/>
+		<when state="J+str_" output="Ɉ"/>
+		<when state="J+stro_" output="Ɉ"/>
+		<when state="J+strok_" output="Ɉ"/>
 		<when state="K+_" output="K"/>
 		<when state="K+a_" output="Ḱ"/>
 		<when state="K+ac_" output="Ḱ"/>
@@ -2370,6 +2619,11 @@
 		<when state="K+ha_" output="Ǩ"/>
 		<when state="K+hac_" output="Ǩ"/>
 		<when state="K+hace_" output="Ǩ"/>
+		<when state="K+s_" output="Ꝁ"/>
+		<when state="K+st_" output="Ꝁ"/>
+		<when state="K+str_" output="Ꝁ"/>
+		<when state="K+stro_" output="Ꝁ"/>
+		<when state="K+strok_" output="Ꝁ"/>
 		<when state="L+_" output="L"/>
 		<when state="L+a_" output="Ĺ"/>
 		<when state="L+ac_" output="Ĺ"/>
@@ -2388,6 +2642,11 @@
 		<when state="L+ha_" output="Ľ"/>
 		<when state="L+hac_" output="Ľ"/>
 		<when state="L+hace_" output="Ľ"/>
+		<when state="L+s_" output="Ł"/>
+		<when state="L+st_" output="Ł"/>
+		<when state="L+str_" output="Ł"/>
+		<when state="L+stro_" output="Ł"/>
+		<when state="L+strok_" output="Ł"/>
 		<when state="M+_" output="M"/>
 		<when state="M+a_" output="Ḿ"/>
 		<when state="M+ac_" output="Ḿ"/>
@@ -2471,6 +2730,11 @@
 		<when state="O+ogo_" output="Ǫ"/>
 		<when state="O+ogon_" output="Ǫ"/>
 		<when state="O+ogone_" output="Ǫ"/>
+		<when state="O+s_" output="Ø"/>
+		<when state="O+st_" output="Ø"/>
+		<when state="O+str_" output="Ø"/>
+		<when state="O+stro_" output="Ø"/>
+		<when state="O+strok_" output="Ø"/>
 		<when state="O+t_" output="Õ"/>
 		<when state="O+ti_" output="Õ"/>
 		<when state="O+til_" output="Õ"/>
@@ -2487,6 +2751,11 @@
 		<when state="P+acut_" output="Ṕ"/>
 		<when state="P+d_" output="Ṗ"/>
 		<when state="P+do_" output="Ṗ"/>
+		<when state="P+s_" output="Ᵽ"/>
+		<when state="P+st_" output="Ᵽ"/>
+		<when state="P+str_" output="Ᵽ"/>
+		<when state="P+stro_" output="Ᵽ"/>
+		<when state="P+strok_" output="Ᵽ"/>
 		<when state="Q+_" output="Q"/>
 		<when state="R+_" output="R"/>
 		<when state="R+a_" output="Ŕ"/>
@@ -2508,6 +2777,11 @@
 		<when state="R+ha_" output="Ř"/>
 		<when state="R+hac_" output="Ř"/>
 		<when state="R+hace_" output="Ř"/>
+		<when state="R+s_" output="Ɍ"/>
+		<when state="R+st_" output="Ɍ"/>
+		<when state="R+str_" output="Ɍ"/>
+		<when state="R+stro_" output="Ɍ"/>
+		<when state="R+strok_" output="Ɍ"/>
 		<when state="S+_" output="S"/>
 		<when state="S+a_" output="Ś"/>
 		<when state="S+ac_" output="Ś"/>
@@ -2552,6 +2826,11 @@
 		<when state="T+ha_" output="Ť"/>
 		<when state="T+hac_" output="Ť"/>
 		<when state="T+hace_" output="Ť"/>
+		<when state="T+s_" output="Ŧ"/>
+		<when state="T+st_" output="Ŧ"/>
+		<when state="T+str_" output="Ŧ"/>
+		<when state="T+stro_" output="Ŧ"/>
+		<when state="T+strok_" output="Ŧ"/>
 		<when state="U+_" output="U"/>
 		<when state="U+a_" output="Ú"/>
 		<when state="U+ac_" output="Ú"/>
@@ -2695,6 +2974,11 @@
 		<when state="Y+mac_" output="Ȳ"/>
 		<when state="Y+macr_" output="Ȳ"/>
 		<when state="Y+macro_" output="Ȳ"/>
+		<when state="Y+s_" output="Ɏ"/>
+		<when state="Y+st_" output="Ɏ"/>
+		<when state="Y+str_" output="Ɏ"/>
+		<when state="Y+stro_" output="Ɏ"/>
+		<when state="Y+strok_" output="Ɏ"/>
 		<when state="Y+t_" output="Ỹ"/>
 		<when state="Y+ti_" output="Ỹ"/>
 		<when state="Y+til_" output="Ỹ"/>
@@ -2727,6 +3011,11 @@
 		<when state="Z+ha_" output="Ž"/>
 		<when state="Z+hac_" output="Ž"/>
 		<when state="Z+hace_" output="Ž"/>
+		<when state="Z+s_" output="Ƶ"/>
+		<when state="Z+st_" output="Ƶ"/>
+		<when state="Z+str_" output="Ƶ"/>
+		<when state="Z+stro_" output="Ƶ"/>
+		<when state="Z+strok_" output="Ƶ"/>
 		<when state="a+_" output="a"/>
 		<when state="a+a_" output="á"/>
 		<when state="a+ac_" output="á"/>
@@ -2777,6 +3066,11 @@
 		<when state="a+r_" output="å"/>
 		<when state="a+ri_" output="å"/>
 		<when state="a+rin_" output="å"/>
+		<when state="a+s_" output="ⱥ"/>
+		<when state="a+st_" output="ⱥ"/>
+		<when state="a+str_" output="ⱥ"/>
+		<when state="a+stro_" output="ⱥ"/>
+		<when state="a+strok_" output="ⱥ"/>
 		<when state="a+t_" output="ã"/>
 		<when state="a+ti_" output="ã"/>
 		<when state="a+til_" output="ã"/>
@@ -2789,6 +3083,11 @@
 		<when state="b+_" output="b"/>
 		<when state="b+d_" output="ḃ"/>
 		<when state="b+do_" output="ḃ"/>
+		<when state="b+s_" output="ƀ"/>
+		<when state="b+st_" output="ƀ"/>
+		<when state="b+str_" output="ƀ"/>
+		<when state="b+stro_" output="ƀ"/>
+		<when state="b+strok_" output="ƀ"/>
 		<when state="c+_" output="c"/>
 		<when state="c+a_" output="ć"/>
 		<when state="c+ac_" output="ć"/>
@@ -2817,6 +3116,11 @@
 		<when state="c+ha_" output="č"/>
 		<when state="c+hac_" output="č"/>
 		<when state="c+hace_" output="č"/>
+		<when state="c+s_" output="ȼ"/>
+		<when state="c+st_" output="ȼ"/>
+		<when state="c+str_" output="ȼ"/>
+		<when state="c+stro_" output="ȼ"/>
+		<when state="c+strok_" output="ȼ"/>
 		<when state="d+_" output="d"/>
 		<when state="d+c_" output="ď"/>
 		<when state="d+ca_" output="ď"/>
@@ -2828,6 +3132,11 @@
 		<when state="d+ha_" output="ď"/>
 		<when state="d+hac_" output="ď"/>
 		<when state="d+hace_" output="ď"/>
+		<when state="d+s_" output="đ"/>
+		<when state="d+st_" output="đ"/>
+		<when state="d+str_" output="đ"/>
+		<when state="d+stro_" output="đ"/>
+		<when state="d+strok_" output="đ"/>
 		<when state="e+_" output="e"/>
 		<when state="e+a_" output="é"/>
 		<when state="e+ac_" output="é"/>
@@ -2881,6 +3190,11 @@
 		<when state="e+ogo_" output="ę"/>
 		<when state="e+ogon_" output="ę"/>
 		<when state="e+ogone_" output="ę"/>
+		<when state="e+s_" output="ɇ"/>
+		<when state="e+st_" output="ɇ"/>
+		<when state="e+str_" output="ɇ"/>
+		<when state="e+stro_" output="ɇ"/>
+		<when state="e+strok_" output="ɇ"/>
 		<when state="e+u_" output="ë"/>
 		<when state="e+um_" output="ë"/>
 		<when state="e+uml_" output="ë"/>
@@ -2921,6 +3235,11 @@
 		<when state="g+ha_" output="ǧ"/>
 		<when state="g+hac_" output="ǧ"/>
 		<when state="g+hace_" output="ǧ"/>
+		<when state="g+s_" output="ǥ"/>
+		<when state="g+st_" output="ǥ"/>
+		<when state="g+str_" output="ǥ"/>
+		<when state="g+stro_" output="ǥ"/>
+		<when state="g+strok_" output="ǥ"/>
 		<when state="h+_" output="h"/>
 		<when state="h+c_" output="ȟ"/>
 		<when state="h+ca_" output="ȟ"/>
@@ -2952,6 +3271,11 @@
 		<when state="h+ha_" output="ȟ"/>
 		<when state="h+hac_" output="ȟ"/>
 		<when state="h+hace_" output="ȟ"/>
+		<when state="h+s_" output="ħ"/>
+		<when state="h+st_" output="ħ"/>
+		<when state="h+str_" output="ħ"/>
+		<when state="h+stro_" output="ħ"/>
+		<when state="h+strok_" output="ħ"/>
 		<when state="h+u_" output="ḧ"/>
 		<when state="h+um_" output="ḧ"/>
 		<when state="h+uml_" output="ḧ"/>
@@ -3004,6 +3328,11 @@
 		<when state="i+ogo_" output="į"/>
 		<when state="i+ogon_" output="į"/>
 		<when state="i+ogone_" output="į"/>
+		<when state="i+s_" output="ɨ"/>
+		<when state="i+st_" output="ɨ"/>
+		<when state="i+str_" output="ɨ"/>
+		<when state="i+stro_" output="ɨ"/>
+		<when state="i+strok_" output="ɨ"/>
 		<when state="i+u_" output="ï"/>
 		<when state="i+um_" output="ï"/>
 		<when state="i+uml_" output="ï"/>
@@ -3026,6 +3355,11 @@
 		<when state="j+ha_" output="ǰ"/>
 		<when state="j+hac_" output="ǰ"/>
 		<when state="j+hace_" output="ǰ"/>
+		<when state="j+s_" output="ɉ"/>
+		<when state="j+st_" output="ɉ"/>
+		<when state="j+str_" output="ɉ"/>
+		<when state="j+stro_" output="ɉ"/>
+		<when state="j+strok_" output="ɉ"/>
 		<when state="k+_" output="k"/>
 		<when state="k+a_" output="ḱ"/>
 		<when state="k+ac_" output="ḱ"/>
@@ -3044,6 +3378,11 @@
 		<when state="k+ha_" output="ǩ"/>
 		<when state="k+hac_" output="ǩ"/>
 		<when state="k+hace_" output="ǩ"/>
+		<when state="k+s_" output="ꝁ"/>
+		<when state="k+st_" output="ꝁ"/>
+		<when state="k+str_" output="ꝁ"/>
+		<when state="k+stro_" output="ꝁ"/>
+		<when state="k+strok_" output="ꝁ"/>
 		<when state="l+_" output="l"/>
 		<when state="l+a_" output="ĺ"/>
 		<when state="l+ac_" output="ĺ"/>
@@ -3062,6 +3401,11 @@
 		<when state="l+ha_" output="ľ"/>
 		<when state="l+hac_" output="ľ"/>
 		<when state="l+hace_" output="ľ"/>
+		<when state="l+s_" output="ł"/>
+		<when state="l+st_" output="ł"/>
+		<when state="l+str_" output="ł"/>
+		<when state="l+stro_" output="ł"/>
+		<when state="l+strok_" output="ł"/>
 		<when state="m+_" output="m"/>
 		<when state="m+a_" output="ḿ"/>
 		<when state="m+ac_" output="ḿ"/>
@@ -3145,6 +3489,11 @@
 		<when state="o+ogo_" output="ǫ"/>
 		<when state="o+ogon_" output="ǫ"/>
 		<when state="o+ogone_" output="ǫ"/>
+		<when state="o+s_" output="ø"/>
+		<when state="o+st_" output="ø"/>
+		<when state="o+str_" output="ø"/>
+		<when state="o+stro_" output="ø"/>
+		<when state="o+strok_" output="ø"/>
 		<when state="o+t_" output="õ"/>
 		<when state="o+ti_" output="õ"/>
 		<when state="o+til_" output="õ"/>
@@ -3161,6 +3510,11 @@
 		<when state="p+acut_" output="ṕ"/>
 		<when state="p+d_" output="ṗ"/>
 		<when state="p+do_" output="ṗ"/>
+		<when state="p+s_" output="ᵽ"/>
+		<when state="p+st_" output="ᵽ"/>
+		<when state="p+str_" output="ᵽ"/>
+		<when state="p+stro_" output="ᵽ"/>
+		<when state="p+strok_" output="ᵽ"/>
 		<when state="q+_" output="q"/>
 		<when state="r+_" output="r"/>
 		<when state="r+a_" output="ŕ"/>
@@ -3182,6 +3536,11 @@
 		<when state="r+ha_" output="ř"/>
 		<when state="r+hac_" output="ř"/>
 		<when state="r+hace_" output="ř"/>
+		<when state="r+s_" output="ɍ"/>
+		<when state="r+st_" output="ɍ"/>
+		<when state="r+str_" output="ɍ"/>
+		<when state="r+stro_" output="ɍ"/>
+		<when state="r+strok_" output="ɍ"/>
 		<when state="s+_" output="s"/>
 		<when state="s+a_" output="ś"/>
 		<when state="s+ac_" output="ś"/>
@@ -3226,6 +3585,11 @@
 		<when state="t+ha_" output="ť"/>
 		<when state="t+hac_" output="ť"/>
 		<when state="t+hace_" output="ť"/>
+		<when state="t+s_" output="ŧ"/>
+		<when state="t+st_" output="ŧ"/>
+		<when state="t+str_" output="ŧ"/>
+		<when state="t+stro_" output="ŧ"/>
+		<when state="t+strok_" output="ŧ"/>
 		<when state="u+_" output="u"/>
 		<when state="u+a_" output="ú"/>
 		<when state="u+ac_" output="ú"/>
@@ -3375,6 +3739,11 @@
 		<when state="y+r_" output="ẙ"/>
 		<when state="y+ri_" output="ẙ"/>
 		<when state="y+rin_" output="ẙ"/>
+		<when state="y+s_" output="ɏ"/>
+		<when state="y+st_" output="ɏ"/>
+		<when state="y+str_" output="ɏ"/>
+		<when state="y+stro_" output="ɏ"/>
+		<when state="y+strok_" output="ɏ"/>
 		<when state="y+t_" output="ỹ"/>
 		<when state="y+ti_" output="ỹ"/>
 		<when state="y+til_" output="ỹ"/>
@@ -3407,5 +3776,10 @@
 		<when state="z+ha_" output="ž"/>
 		<when state="z+hac_" output="ž"/>
 		<when state="z+hace_" output="ž"/>
+		<when state="z+s_" output="ƶ"/>
+		<when state="z+st_" output="ƶ"/>
+		<when state="z+str_" output="ƶ"/>
+		<when state="z+stro_" output="ƶ"/>
+		<when state="z+strok_" output="ƶ"/>	
 	</terminators>
 </keyboard>
