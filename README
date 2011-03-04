@@ -1,39 +1,30 @@
 INTERDIACRITICAL KEYBOARD LAYOUT
 
-The keyboard layout with ridiculously simple and intuitive input method of every single diacritical letter — dedicated for typographers, linguists or journalists working with multiple languages.
+The keyboard layout with simple and intuitive input method of every single diacritical letter — dedicated for typographers, linguists or editors working with multiple languages.
 
 
 THE PROBLEM
 
-Full‑size physical keyboards are here to stay. They are indispensable in their speed, reliability and tactile feedback. But they're also limited to basic Latin characters, and this forces the rich world of diacritics to be entered with not quite intuitive keyboard layouts. And while each language's native layout with its few diacritics found through some key combination will fairly do, the problem arises with multiple languages at work.
+With multiple languages at work, input of diacritical letters by keyboard happens to be quite problematic. Dozens of quirky key combinations to access foreign diacritics through a language's native keyboard, still giving not even a fraction of world's diacritical variety. Or switching from language to language for specific input, each defined without single, predictable manner.
 
-Most of such single language layouts indeed give access to some foreign diacritics, but then require quite a lot, often quirky key combinations to get used to, and still it's not even a fraction of the diacritical variety. Switching between several language‑specific layouts seems, in turn, rather impractical and confusing, especially with all the layouts serving their diacritical input without single, predictable manner.
+Frustration over this mess to deal with gave an idea of a layout with a single, ridiculously intuitive method ever required for possibly all existing diacritical letters. The keyboard layout that is simple and clear, with key's engraved labels being, in fact, always the actual input. Keyboard that is suitable for touch-typists used to type with uninterrupted flow, what the method inherently allows.
 
 
 THE METHOD
 
-The idea is an intuitive input of any diacritical letter with a basic, simple method ever required: the Option key + the base letter, followed by typing diacritic's name. Therefore pressing, say, Opt + e, followed by typing the name »acute« spits an é. There's even no need to type the entire phrase — as you type, the layout estimates diacritic name and suggests available output.
-
-Now, with the versatility of the method, all those fancy key combinations are gone. The keyboard layout stays elegant and clear, with key's engraved labels being simply the actual input.
+The method is simply the Option key + the base letter, followed by typing diacritic's name. Therefore pressing, say, Opt + e, followed by typing »acute« spits an é. There's also no need to type the entire name, since the keyboard estimates it and suggests early available output.
 
 
 FEATURED DIACRITICS
 
-Supported diacritics, to be typed in the literal form, are: acute, breve, caron (also as hacek), circumflex, diaeresis (umlaut), dot, grave, macron, ogonek, ring, stroke, tilde and — with the method extensible by nature — surely more in the future.
+Supported diacritics, to be typed in the literal form, are: acute, breve, caron (also as hacek), circumflex, diaeresis (umlaut), dot, grave, macron, ogonek, ring, stroke, tilde and — with the method extensible by nature — possibly more in the future.
 
 
 INSTALLATION
 
-The layout is installed simply by copying the .keylayout file into the Keyboard Layouts folder within the system's /Library or user's ~/Library, after either relog is recommended, although on newer Mac OS X not required. Enable it via the Input tab of the Language & Text (formerly International) system preferences.
-
-
-PREVIEW
-
-To preview the layout and available diacritical combinations
-• without installing it, use Ukelele, a keyboard layout editor by SIL available at http://scripts.sil.org/ukelele, or
-• with the layout installed — the Keyboard Viewer from the Input Source Menu Item.
+The layout is installed simply by copying the .keylayout file into the Keyboard Layouts folder within the system's /Library or user's ~/Library (on older Mac OS X re-log recommended). Enable it via the Input tab of the Language & Text (formerly International) system preferences. To preview layout's mechanics just see the Keyboard Viewer from the Input Source status bar item.
 
 
 CREDITS & LICENSE
 
-Conceptualized and handtyped by Grzegorz Rolek. Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, available at http://creativecommons.org/licenses/by-nc-sa/3.0/.
+Conceptualized and handcoded by Grzegorz Rolek. Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, available at http://creativecommons.org/licenses/by-nc-sa/3.0/.
